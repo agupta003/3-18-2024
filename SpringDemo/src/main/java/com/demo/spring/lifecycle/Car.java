@@ -15,6 +15,7 @@ public class Car {
 
 	public void setPrice(double price) {
 		System.out.println("Setting Price");
+		System.out.println("***************");
 		this.price = price;
 	}
 
