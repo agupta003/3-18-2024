@@ -1,0 +1,18 @@
+INDEX VERSION 1.4+C:\Users\visio\3-18-2024\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+919351842.index
+4020480900.index
+2730531055.index
+1655271296.index
+1770281155.index
+4101496514.index
+3775620241.index
+1594855696.index
+711877215.index
+3537036267.index
+2036766613.index
+492359656.index
+2899321396.index
+1340020028.index
+417900093.index
+362596579.index
+2426638303.index

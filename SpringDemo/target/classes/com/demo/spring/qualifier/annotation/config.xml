@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+<context:annotation-config></context:annotation-config>
+<bean class= "com.demo.spring.qualifier.annotation.Address1" name="pata">
+<property name="unit" value="8000"/>
+<property name="street" value="Fallondale Rd"/>
+<property name="city" value="Waxhow"/>
+</bean>
+
+<bean class= "com.demo.spring.qualifier.annotation.Address1" name="address">
+<property name="unit" value="1463"/>
+<property name="street" value="Bramblewood Dr"/>
+<property name="city" value="FortMill"/>
+</bean>
+
+<bean class= "com.demo.spring.qualifier.annotation.Emp" name="emp"> 
+</bean>
+</beans>

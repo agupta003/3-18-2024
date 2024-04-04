@@ -1,0 +1,18 @@
+package mvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class RedirectController {
+	
+	@RequestMapping("/one")
+	public String  oneUrl() {
+		return "";
+	}
+	
+	@RequestMapping("/two")
+	public String  twoUrl() {
+		return "";
+	}
+}

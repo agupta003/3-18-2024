@@ -1,0 +1,25 @@
+package sorm;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+import dao.StudentDao;
+import entities.Student;
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext context=  new FileSystemXmlApplicationContext("src/main/java/sorm/config.xml");
+    StudentDao studentDao = context.getBean("studentDao", StudentDao.class);
+    Student student=new Student(1234, "Abhishek Gupta", "Charlotte");
+    try {
+		int r = studentDao.insert(student);
+		System.out.println("One record is insertted :"+r);
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+    }
+}

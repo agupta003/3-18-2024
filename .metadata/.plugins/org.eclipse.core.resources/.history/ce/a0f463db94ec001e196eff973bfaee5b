@@ -1,0 +1,7 @@
+<html>
+<title>Default Index.jsp</title>
+<body>
+<%response.sendRedirect("home"); %>
+<h1>This is home page</h1>
+</body>
+</html>

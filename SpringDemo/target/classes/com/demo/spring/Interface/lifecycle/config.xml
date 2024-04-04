@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean class= "com.demo.spring.Interface.lifecycle.Car" name="c" init-method="init" destroy-method="destroy">
+<property name="price" value="53000"/>
+</bean>
+
+<!-- We will not define init and destroy tags in the below bean -->
+<bean class= "com.demo.spring.Interface.lifecycle.House" name="h">
+<property name="price" value="830000"/>
+</bean>
+
+</beans>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>TServlet</display-name>
+  <servlet>
+    <servlet-name>first</servlet-name>
+    <servlet-class>com.servlet.FirstServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>second</servlet-name>
+    <servlet-class>com.servlet.FirstGenericServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>first</servlet-name>
+    <url-pattern>/web</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>second</servlet-name>
+    <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+</web-app>
