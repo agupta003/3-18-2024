@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\visio\3-18-2024\spring-mvc-orm-db-auto-binding"/>
 			<item value="C:\Users\visio\3-18-2024"/>
 		</list>
 		<list key="projectNameTemplate">
